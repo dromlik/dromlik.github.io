@@ -526,3 +526,16 @@ footer_bg: false
 rightside-bottom:
 
 # Enter transitions
+
+# 背景特效
+# 樱花飘落效果
+sakura:
+  enable: true
+
+# 动态线条背景 (canvas_nest)
+canvas_nest:
+  enable: false # 如果开了樱花，建议关掉这个，避免太乱
+  color: '0,0,255' # 线条颜色
+  opacity: '0.7' # 透明度
+  zIndex: '-1' # 层级
+  count: '99' # 线条数量
